@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <Resource
+            name="jdbc/register"
+            type="javax.sql.DataSource"
+            username="postgres"
+            password="123"
+            driverClassName="org.postgresql.Driver"
+            url="jdbc:postgresql://localhost:5434/postgres"
+            maxTotal="100"
+            maxIdle="10"
+            maxWaitMillis="5000">
+    </Resource>
+</Context>
+
